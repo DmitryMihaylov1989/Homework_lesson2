@@ -2,11 +2,5 @@
 // а на выходе показывает вторую цифру этого числа
 Console.Write("Введи число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-if(n > 99)
-{
-    Console.WriteLine((n % 100) / 10);
-}
+if(n > 99) Console.WriteLine((n % 100) / 10);
 
-else {
-  Console.WriteLine("-> третьей цифры нет");
-}
